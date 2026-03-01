@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0 1rem;
+  background-color: lightblue;
 }
 
 h1 {
@@ -37,6 +38,11 @@ main {
 .parties a:hover {
   background: #eee;
   font-style: italic;
+}
+
+li {
+  border: solid black 1px;
+  border-radius: 5px;
 }
 
 .parties li.selected {
